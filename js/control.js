@@ -62,7 +62,7 @@ function ValidationPassed(passedValue = "") {
 		if (hasClass) {
 			getRotatingIcon.classList.remove("checking");
 		}
-	}, timeMultiplier * 1500);
+	}, timeMultiplier * 2000);
 }
 
 function RunRandomValues() {
